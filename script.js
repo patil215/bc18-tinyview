@@ -380,7 +380,7 @@ function visualize(data) {
                         // Rangers will be some kind of dark green
                         unitTypeStyle = '#080'; break;
                     case "Mage":
-                        // Rangers will be some kind of dark blue
+                        // Mages will be some kind of dark blue
                         unitTypeStyle = '#008'; break;
                     case "Healer":
                         // Healers will be some kind of purple
@@ -389,8 +389,8 @@ function visualize(data) {
                         // Factories will be gray
                         unitTypeStyle = '#000'; break;
                     case "Rocket":
-                        // Rockets
-                        unitTypeStyle = '#000'; break;
+                        // Rockets will be brown
+                        unitTypeStyle = '#400'; break;
                     default:
                         // Unimplemented unit type
                         unitTypeStyle = '#FFF';
